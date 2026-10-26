@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:experimental
-FROM php:8.2-apache-bookworm as base
+FROM php:8.2.35-apache-bookworm as base
 
 # Update packages
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y update --fix-missing && \
